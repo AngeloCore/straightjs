@@ -1,6 +1,6 @@
 {
   "name": "straight.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package that converts any image to a straight image",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -11,7 +11,8 @@
   ],
   "funding": "https://paypal.me/AngeloCore",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",

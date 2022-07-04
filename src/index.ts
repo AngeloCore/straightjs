@@ -4,9 +4,9 @@ import { join } from "path";
 class Straight {
   static async hetero(
     image: string | Buffer,
-    opacity: number = 0.7
+    opacity: number = 0.3
   ): Promise<Buffer> {
-    if (opacity >= 1) opacity = parseFloat("0." + opacity);
+    if (opacity > 1) opacity = parseFloat("0." + opacity);
 
     const base = await canvas.loadImage(image).catch((e) => {
       throw new Error("Failed to load image.");
