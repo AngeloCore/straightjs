@@ -1,0 +1,29 @@
+{
+  "name": "straightjs",
+  "version": "1.0.0-dev-a1",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib/*.js", "assets/*.png"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngeloCore/straightjs.git"
+  },
+  "keywords": [],
+  "author": "Angelo II",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AngeloCore/straightjs/issues"
+  },
+  "homepage": "https://github.com/AngeloCore/straightjs#readme",
+  "dependencies": {
+    "canvas": "^2.9.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.1"
+  }
+}
