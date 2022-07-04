@@ -2,8 +2,6 @@
 
 ## Convert any image to straight image
 
-<br />
-
 ### Example
 
 ```js

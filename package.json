@@ -1,10 +1,15 @@
 {
-  "name": "straightjs",
-  "version": "1.0.0-dev-a1",
-  "description": "",
+  "name": "straight.js",
+  "version": "1.0.0",
+  "description": "A package that converts any image to a straight image",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "files": ["lib/*.js", "assets/*.png"],
+  "files": [
+    "lib/*.js",
+    "lib/*.js",
+    "assets/*.png"
+  ],
+  "funding": "https://paypal.me/AngeloCore",
   "scripts": {
     "build": "tsc"
   },
@@ -14,7 +19,7 @@
   },
   "keywords": [],
   "author": "Angelo II",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/AngeloCore/straightjs/issues"
   },
