@@ -1,6 +1,6 @@
 {
   "name": "straight.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A package that converts any image to a straight image",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,7 +18,14 @@
     "type": "git",
     "url": "git+https://github.com/AngeloCore/straightjs.git"
   },
-  "keywords": [],
+  "keywords": [
+    "straight",
+    "hetero",
+    "lbtq",
+    "lgbtq+",
+    "src",
+    "angelo"
+  ],
   "author": "Angelo II",
   "license": "Apache-2.0",
   "bugs": {
